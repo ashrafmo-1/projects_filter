@@ -16,6 +16,13 @@ body{
     gap: 20px;
 }
 
+.projects-filter {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .filter-btns > span {
     font-size: 22px;
     border: 1px solid red;
@@ -37,4 +44,7 @@ img{
 .projects{
     width: 80%;
     margin: 50px 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 40px;
 }
