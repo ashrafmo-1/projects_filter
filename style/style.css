@@ -1,50 +1,74 @@
-body{
-    background-color: #000;
-    color: aliceblue;
-    text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.main-header{
-    font-size: 33px;
-    margin: 22px 0px;
-    color: red;
-}
-
-.filter-btns {
-    user-select: none;
-    display: flex;
-    gap: 20px;
-}
-
-.projects-filter {
+body {
+  background-image: linear-gradient( 111.4deg,  rgba(7,7,9,1) 6.5%, rgba(27,24,113,1) 93.2% );
+  color: aliceblue;
+  font-family: sans-serif;
+  .app {
     justify-content: center;
     display: flex;
     align-items: center;
     flex-direction: column;
+    .main-header {
+      font-size: 33px;
+      margin: 22px 0px;
+      color: #eee;
+      text-transform: capitalize;
+    }
+    .filter-btns {
+      user-select: none;
+      display: flex;
+      gap: 20px;
+    }
+    .filter-btns > span {
+      font-size: 22px;
+      border: 1px solid #777;
+      padding: 4px 10px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    .filter-btns > span.active {
+      background: #777;
+    }
+  }
 }
 
-.filter-btns > span {
-    font-size: 22px;
-    border: 1px solid red;
-    padding: 4px 10px;
-    cursor: pointer;
+.all_projects {
+  margin: 50px 0;
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 40px;
+  .project {
+    background-color: #3333;
     border-radius: 4px;
-}
-
-.filter-btns > span.active {
-    background: red;
-}
-
-img{
-    width: 100%;
-    height: 200px;
-    border: 4px solid red;
-}
-
-.projects{
-    width: 80%;
-    margin: 50px 0px;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 40px;
+    padding: 8px;
+    color: red;
+    text-align: center;
+    .project-name {
+      color: #999;
+      text-align: center;
+      font-size: 25px;
+      margin-bottom: 10px;
+    }
+    img {
+      width: 90%;
+    }
+    .project-description {
+      font-size: 14px;
+      overflow-wrap:break-word;
+      margin: 10px 0 20px 0;
+    }
+    .project-link {
+      background-break: red;
+      width: 100px;
+      img {
+        width: 30px;
+        border-radius: 50%;
+      }
+    }
+  }
 }
