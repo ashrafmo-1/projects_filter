@@ -84,3 +84,9 @@ body {
     }
   }
 }
+
+footer {
+  text-align: center;
+  background-color: #3333;
+  padding: 8px 0;
+}
