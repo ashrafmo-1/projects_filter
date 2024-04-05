@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  -webkit-user-drag: none;
 }
 body {
   background-image: linear-gradient( 111.4deg,  rgba(7,7,9,1) 6.5%, rgba(27,24,113,1) 93.2% );
@@ -23,12 +24,22 @@ body {
       display: flex;
       gap: 20px;
     }
+    @media(max-width:600px) {
+      .filter-btns {
+        gap: 4px;
+      }
+    }
     .filter-btns > span {
       font-size: 22px;
       border: 1px solid #777;
       padding: 4px 10px;
       cursor: pointer;
       border-radius: 4px;
+    }
+    @media(max-width:510px) {
+      .filter-btns > span {
+        font-size: 15px;
+      }
     }
     .filter-btns > span.active {
       background: #777;
@@ -54,8 +65,9 @@ body {
       font-size: 25px;
       margin-bottom: 10px;
     }
-    img {
+    .project-image {
       width: 90%;
+      height: 200px;
     }
     .project-description {
       font-size: 14px;
