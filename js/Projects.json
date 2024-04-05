@@ -5,7 +5,7 @@
     "image": "/assets/DRAGON STORE.png",
     "description": "can user signUp by user and in site products management",
     "sub_description": "backEnd wirking local only",
-    "class": "project all next",
+    "class": "all next",
     "url": "https://dragon-shop.vercel.app/",
     "srcCode": "https://github.com/ashrafmo-1/Dragon_Shop"
   },
@@ -14,7 +14,7 @@
     "name": "BONDI_TEMPLET",
     "image": "/assets/bondi.png",
     "description": "this site to training on bootstap classes",
-    "class": "project all",
+    "class": "all",
     "url": "https://ashrafmo-1.github.io/bondi-site/",
     "srcCode": "https://github.com/ashrafmo-1/bondi-site"
   },
@@ -24,7 +24,7 @@
     "image": "/assets/page customize.png",
     "description": "user can change background image, color text and font",
 
-    "class": "project all",
+    "class": "all",
     "url": "https://ashrafmo-1.github.io/special-webSite-full-responsive/",
     "srcCode": "https://github.com/ashrafmo-1/special-webSite-full-responsive"
   },
@@ -33,7 +33,7 @@
     "name": "TO DO TASKS",
     "image": "/assets/to do tasks.png",
     "description": "add your tasks and remove this task",
-    "class": "project all ",
+    "class": "all",
 
     "url": "https://to-do-tasks-wine.vercel.app/",
     "srcCode": ""
@@ -43,7 +43,7 @@
     "name": "get github repositories",
     "image": "/assets/github fetch.png",
     "description": "add your tasks and remove this task",
-    "class": "project all ",
+    "class": "all",
     "url": "https://ashrafmo-1.github.io/fetch_Github-repository/",
     "srcCode": "https://github.com/ashrafmo-1/fetch_Github-repository"
   },
@@ -52,7 +52,7 @@
     "name": "translation app",
     "image": "/assets/translator.png",
     "description": "can user translate any language to any language",
-    "class": "project all htmlCssJs",
+    "class": "all htmlCssJs",
     "url": "https://ashrafmo-1.github.io/translate-app/",
     "srcCode": "https://github.com/ashrafmo-1/translate-app"
   },
@@ -61,7 +61,7 @@
     "name": "TEXT TO SPEAK",
     "image": "/assets/TEXT TO SPEAK.png",
     "description": "You can write anything inside the field and the robot will say what you wrote",
-    "class": "project all htmlCssJs",
+    "class": "all htmlCssJs",
     "url": "https://ashrafmo-1.github.io/text-to-speak/",
     "srcCode": "https://github.com/ashrafmo-1/text-to-speak"
   },
@@ -70,7 +70,7 @@
     "name": "simple site",
     "image": "/assets/frank team.png",
     "description": "You can write anything inside the field and the robot will say what you wrote",
-    "class": "project all htmlCssJs",
+    "class": "all htmlCssJs",
     "url": "https://ashrafmo-1.github.io/text-to-speak/",
     "srcCode": "https://github.com/ashrafmo-1/text-to-speak"
   }

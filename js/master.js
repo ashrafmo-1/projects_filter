@@ -1,5 +1,4 @@
 const app = document.querySelector(".app");
-
 fetch("./js/Projects.json")
   .then((response) => response.json())
   .then((data) => {
@@ -8,7 +7,7 @@ fetch("./js/Projects.json")
 
     data.forEach((project) => {
       const projectDiv = document.createElement("div");
-      projectDiv.className = project.class;
+      projectDiv.className = "project " + project.class;
       // project name element
       const projectName = document.createElement("h2");
       projectName.className = "project-name";
@@ -24,6 +23,7 @@ fetch("./js/Projects.json")
       projectDescription.innerHTML = project.description;
       /* dev controls */
       const devControls = document.createElement("dev");
+      devControls.className = "dev-controls";
       // project link;
       const projectLink = document.createElement("a");
       projectLink.className = "project-link";
@@ -35,36 +35,41 @@ fetch("./js/Projects.json")
       projectSrc.className = "project-projectSrc";
       projectSrc.href = project.srcCode;
       projectSrc.innerHTML = "src";
+      devControls.appendChild(projectLink);
+      devControls.appendChild(projectSrc);
 
       projectDiv.appendChild(projectName);
       projectDiv.appendChild(projectImage);
       projectDiv.appendChild(projectDescription);
-      projectDiv.appendChild(projectLink);
-      projectDiv.appendChild(projectSrc);
+      projectDiv.appendChild(projectDescription);
+      projectDiv.appendChild(devControls);
+
       allProjects.appendChild(projectDiv);
     });
     app.appendChild(allProjects);
+
+    let shuffles = document.querySelectorAll(".filter-btns span");
+    let boxes = document.querySelectorAll(".all_projects .project");
+    console.log(boxes);
+
+    // projects filter
+    shuffles.forEach((ele) => {
+      ele.addEventListener("click", (shuffle) => {
+        shuffles.forEach((span) => {
+          span.classList.remove("active");
+        });
+        shuffle.target.classList.add("active");
+      });
+    
+      // handel projects filtered by dataset projects
+      ele.addEventListener("click", function handelProjectsFilter() {
+        boxes.forEach((proj) => {
+          proj.style.display = "none";
+        });
+        document.querySelectorAll(this.dataset.projects).forEach((project) => {
+          project.style.display = "block";
+        });
+      });
+    });
   })
   .catch((error) => console.error("Error loading the projects:", error));
-
-let shuffles = document.querySelectorAll(".filter-btns span");
-let boxes = document.querySelectorAll(".all_projects .project");
-
-shuffles.forEach((ele) => {
-  ele.addEventListener("click", (shuffle) => {
-    shuffles.forEach((span) => {
-      span.classList.remove("active");
-    });
-    shuffle.target.classList.add("active");
-  });
-
-  // handel projects filtered by dataset projects
-  ele.addEventListener("click", function handelProjectsFilter() {
-    boxes.forEach((projects) => {
-      projects.style.display = "none";
-    });
-    document.querySelectorAll(this.dataset.project).forEach((project) => {
-      project.style.display = "block";
-    });
-  });
-});
