@@ -14,7 +14,7 @@
     "name": "BONDI_TEMPLET",
     "image": "/assets/bondi.png",
     "description": "this site to training on bootstap classes",
-    "class": "all",
+    "class": "all htmlCss",
     "url": "https://ashrafmo-1.github.io/bondi-site/",
     "srcCode": "https://github.com/ashrafmo-1/bondi-site"
   },
@@ -23,8 +23,7 @@
     "name": "CUSTOMIZE SITE",
     "image": "/assets/page customize.png",
     "description": "user can change background image, color text and font",
-
-    "class": "all",
+    "class": "all htmlCssJs",
     "url": "https://ashrafmo-1.github.io/special-webSite-full-responsive/",
     "srcCode": "https://github.com/ashrafmo-1/special-webSite-full-responsive"
   },
@@ -33,8 +32,7 @@
     "name": "TO DO TASKS",
     "image": "/assets/to do tasks.png",
     "description": "add your tasks and remove this task",
-    "class": "all",
-
+    "class": "all htmlCssJs",
     "url": "https://to-do-tasks-wine.vercel.app/",
     "srcCode": ""
   },
@@ -43,7 +41,7 @@
     "name": "get github repositories",
     "image": "/assets/github fetch.png",
     "description": "add your tasks and remove this task",
-    "class": "all",
+    "class": "all htmlCssJs",
     "url": "https://ashrafmo-1.github.io/fetch_Github-repository/",
     "srcCode": "https://github.com/ashrafmo-1/fetch_Github-repository"
   },
@@ -73,5 +71,14 @@
     "class": "all htmlCssJs",
     "url": "https://ashrafmo-1.github.io/text-to-speak/",
     "srcCode": "https://github.com/ashrafmo-1/text-to-speak"
+  },
+  {
+    "id": 8,
+    "name": "M&A store",
+    "image": "/assets/m&a.png",
+    "description": "project make with team to learn team work",
+    "class": "all react",
+    "url": "https://a-m-productsmanagment.web.app/",
+    "srcCode": "https://github.com/ashrafmo-1/E-commerce_products-management_react.js"
   }
 ]
