@@ -80,5 +80,23 @@
     "class": "all react",
     "url": "https://a-m-productsmanagment.web.app/",
     "srcCode": "https://github.com/ashrafmo-1/E-commerce_products-management_react.js"
+  },
+  {
+    "id": 9,
+    "name": "Dashboard",
+    "image": "/assets/dash board.png",
+    "description": "project make with team to learn team work",
+    "class": "all htmlCss",
+    "url": "https://ashrafmo-1.github.io/dashboard/",
+    "srcCode": "https://github.com/ashrafmo-1/dashboard"
+  },
+  {
+    "id": 10,
+    "name": "kasper design",
+    "image": "/assets/kasper design.png",
+    "description": "kasper-profile-site is a simple project created using HTML, CSS, and pure JavaScript.",
+    "class": "all react htmlCssJs",
+    "url": "https://ashrafmo-1.github.io/kasper-profile-site/",
+    "srcCode": "https://github.com/ashrafmo-1/kasper-profile-site"
   }
 ]

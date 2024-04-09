@@ -65,6 +65,7 @@ body {
       text-align: center;
       font-size: 25px;
       margin-bottom: 10px;
+      text-transform: capitalize;
     }
     .project-image {
       width: 90%;
