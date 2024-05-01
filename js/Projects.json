@@ -98,5 +98,14 @@
     "class": "all react htmlCssJs",
     "url": "https://ashrafmo-1.github.io/kasper-profile-site/",
     "srcCode": "https://github.com/ashrafmo-1/kasper-profile-site"
+  },
+  {
+    "id": 11,
+    "name": "Link sharing app",
+    "image": "/assets/Link_sharing_app.png",
+    "description": "kasper-profile-site is a simple project created using HTML, CSS, and pure JavaScript.",
+    "class": "all react htmlCssJs",
+    "url": "https://link-sharing-app-kappa.vercel.app/",
+    "srcCode": "https://github.com/ashrafmo-1/Link_sharing_app"
   }
 ]

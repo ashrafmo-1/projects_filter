@@ -6,6 +6,7 @@ fetch("./js/Projects.json")
     allProjects.className = "all_projects";
 
     data.forEach((project) => {
+      let blank = true;
       const projectDiv = document.createElement("div");
       projectDiv.className = "project " + project.class;
       // project name element
@@ -31,10 +32,14 @@ fetch("./js/Projects.json")
       projectLink.innerHTML = "live demo";
       // src code
       const projectSrc = document.createElement("a");
-      projectSrc.setAttribute("target", "_blank");
       projectSrc.className = "project-projectSrc";
       projectSrc.href = project.srcCode;
       projectSrc.innerHTML = "src";
+      // handle go to new site on click
+      if (blank) {
+        projectLink.setAttribute("target", "_blank");
+        projectSrc.setAttribute("target", "_blank");
+      }
       devControls.appendChild(projectLink);
       devControls.appendChild(projectSrc);
 
