@@ -113,7 +113,7 @@
     "name": "Front end assistant",
     "image": "/assets/front end assistant.png",
     "description": "Are You Looking For Tools, Templates, Components And A Lot Of Auxiliary Tools, This Is Your Right Place.",
-    "class": "all react htmlCssJs",
+    "class": "all react",
     "url": "https://front-end-assistant-1.vercel.app/",
     "srcCode": "https://github.com/ashrafmo-1/front-end-assistant"
   }
